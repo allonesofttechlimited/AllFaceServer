@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F739D79E-3467-455E-A876-EFDC34EF990F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BioWebServer</RootNamespace>
+    <AssemblyName>BioWebServer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FacerecCSharpWrapper">
+      <HintPath>..\..\..\..\..\bin\FacerecCSharpWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="MiT_License, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\MiT_License.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common, Version=1.6.4.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL" />
+    <Reference Include="SuperSocket.SocketBase, Version=1.6.4.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL" />
+    <Reference Include="SuperSocket.SocketEngine, Version=1.6.4.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL" />
+    <Reference Include="SuperWebSocket, Version=0.10.0.0, Culture=neutral, PublicKeyToken=7ba53b9a7cef5d1c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebSocket4Net, Version=0.6.0.0, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Class1.cs" />
+    <Compile Include="Classes\clsServiceHandler.cs" />
+    <Compile Include="Classes\CreateLogFile.cs" />
+    <Compile Include="Classes\CryptoLibrary.cs" />
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="clsFp.cs" />
+    <Compile Include="clsLogWritter.cs" />
+    <Compile Include="FaceRecognition\Database.cs" />
+    <Compile Include="FaceRecognition\ImageAndDepthSource.cs" />
+    <Compile Include="FaceRecognition\Main.cs" />
+    <Compile Include="FaceRecognition\MAssert.cs" />
+    <Compile Include="FaceRecognition\MyImageAndDepthSource.cs" />
+    <Compile Include="FaceRecognition\MyOpenCvSource.cs" />
+    <Compile Include="FaceRecognition\MyWorker.cs" />
+    <Compile Include="FaceRecognition\OpencvSource.cs" />
+    <Compile Include="FaceRecognition\Worker.cs" />
+    <Compile Include="fgapi.cs" />
+    <Compile Include="HALWebServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HALWebServer.Designer.cs">
+      <DependentUpon>HALWebServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fpengine.cs" />
+    <Compile Include="fpmessage.cs" />
+    <Compile Include="frmLicenseActivate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLicenseActivate.Designer.cs">
+      <DependentUpon>frmLicenseActivate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassKey.Designer.cs">
+      <DependentUpon>frmPassKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jsonhelper.cs" />
+    <Compile Include="MatchApi.cs" />
+    <Compile Include="obj\x86\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usbdevice.cs" />
+    <EmbeddedResource Include="HALWebServer.resx">
+      <DependentUpon>HALWebServer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassKey.resx">
+      <DependentUpon>frmPassKey.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="3divi_face_sdk.lic" />
+    <None Include="bin\Debug\BioWebServer.exe.config" />
+    <None Include="bin\Debug\BioWebServer.vshost.exe.config" />
+    <None Include="bin\Debug\BioWebServer.vshost.exe.manifest" />
+    <None Include="bin\x86\Debug\BioWebServer.vshost.exe.config" />
+    <None Include="bin\x86\Debug\BioWebServer.vshost.exe.manifest" />
+    <None Include="bin\x86\Debug\GWPSK.mit" />
+    <None Include="bin\x86\Debug\HAL_Mercant.zip" />
+    <None Include="bin\x86\Debug\HAL_Mercant_27.147.137.181_50..zip" />
+    <None Include="bin\x86\Debug\HAL_Mercant_No_WebService.zip" />
+    <None Include="bin\x86\Debug\test.wsq" />
+    <None Include="bin\x86\Release\BioWebServer.exe.config" />
+    <None Include="bin\x86\Release\BioWebServer.vshost.exe.config" />
+    <None Include="bin\x86\Release\BioWebServer.vshost.exe.manifest" />
+    <None Include="conf\facerec\config.json" />
+    <None Include="license\3divi_face_sdk.lic" />
+    <None Include="license\initializeFileLock" />
+    <None Include="license\last_error.log" />
+    <None Include="license\last_success.log" />
+    <None Include="license\licenseFileLock" />
+    <None Include="license\logs\logfile.log" />
+    <None Include="license\sharedData" />
+    <None Include="license\tryUpdateFileLock" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="share\age_second\age_model.enc" />
+    <None Include="share\esr\classic.esr" />
+    <None Include="share\faceanalysis\analysis_a.bin" />
+    <None Include="share\faceanalysis\analysis_g.bin" />
+    <None Include="share\faceanalysis\emotion_analysis.bin" />
+    <None Include="share\faceattributes\face_mask.enc" />
+    <None Include="share\facedetectors\blf\back_model.enc" />
+    <None Include="share\facedetectors\blf\front_model.enc" />
+    <None Include="share\facedetectors\config_lbf\lbf_detector.data" />
+    <None Include="share\facedetectors\config_lbf\lbf_detector_gamma.data" />
+    <None Include="share\facedetectors\uld\uld_part1.enc" />
+    <None Include="share\facedetectors\uld\uld_part2.enc" />
+    <None Include="share\facedetectors\uld\uld_part3.enc" />
+    <None Include="share\facerec\depth_liveness\depth_liveness.bin" />
+    <None Include="share\facerec\recognizers\method6v7\method6v7_1.bin" />
+    <None Include="share\facerec\recognizers\method6v7\method6v7_2.bin" />
+    <None Include="share\facerec\recognizers\method6v7\method6v7_3.bin" />
+    <None Include="share\facerec\recognizers\method8v7\method8v7_1.bin" />
+    <None Include="share\facerec\recognizers\method8v7\method8v7_2.bin" />
+    <None Include="share\facerec\recognizers\method8v7\method8v7_3.bin" />
+    <None Include="share\facerec\recognizers\method9v1000mask\method9v1000mask_1.bin" />
+    <None Include="share\facerec\recognizers\method9v1000mask\method9v1000mask_2.bin" />
+    <None Include="share\facerec\recognizers\method9v1000mask\method9v1000mask_3.bin" />
+    <None Include="share\facerec\recognizers\method9v1000\method9v1000_1.bin" />
+    <None Include="share\facerec\recognizers\method9v1000\method9v1000_2.bin" />
+    <None Include="share\facerec\recognizers\method9v1000\method9v1000_3.bin" />
+    <None Include="share\facerec\recognizers\method9v300mask\method9v300mask_1.bin" />
+    <None Include="share\facerec\recognizers\method9v300mask\method9v300mask_2.bin" />
+    <None Include="share\facerec\recognizers\method9v300mask\method9v300mask_3.bin" />
+    <None Include="share\facerec\recognizers\method9v300\method9v300_1.bin" />
+    <None Include="share\facerec\recognizers\method9v300\method9v300_2.bin" />
+    <None Include="share\facerec\recognizers\method9v300\method9v300_3.bin" />
+    <None Include="share\facerec\recognizers\method9v30mask\method9v30mask_1.bin" />
+    <None Include="share\facerec\recognizers\method9v30mask\method9v30mask_2.bin" />
+    <None Include="share\facerec\recognizers\method9v30mask\method9v30mask_3.bin" />
+    <None Include="share\facerec\recognizers\method9v30\method9v30_1.bin" />
+    <None Include="share\facerec\recognizers\method9v30\method9v30_2.bin" />
+    <None Include="share\facerec\recognizers\method9v30\method9v30_3.bin" />
+    <None Include="share\face_quality\fda_fqm.bin" />
+    <None Include="share\face_quality\fqm.bin" />
+    <None Include="share\face_quality\lbf_29fqm.bin" />
+    <None Include="share\fda\fda0017.3500.enc" />
+    <None Include="share\iris\iris.enc" />
+    <None Include="share\ir_liveness\model.enc" />
+    <None Include="share\lbffacefitter\lbf_fitter.data" />
+    <None Include="share\lbffacefitter\lbf_fitter_29.data" />
+    <None Include="share\liveness_2d_v2\model.enc" />
+    <None Include="share\mesh\face_mesh.enc" />
+    <None Include="share\quality_iso\illuminationNet.bin" />
+    <None Include="share\quality_iso\NoiseEstimateNet.bin" />
+    <None Include="share\refa\refa-a.enc" />
+    <None Include="switcher.bat" />
+    <None Include="windows_x86_64\bin\csharp_demo\demo\csharp_demo.deps.json" />
+    <None Include="windows_x86_64\bin\csharp_demo\demo\csharp_demo.runtimeconfig.json" />
+    <None Include="windows_x86_64\bin\csharp_demo\demo\run.bat" />
+    <None Include="windows_x86_64\bin\csharp_demo\video_recognition_demo\csharp_video_recognition_demo.deps.json" />
+    <None Include="windows_x86_64\bin\csharp_demo\video_recognition_demo\csharp_video_recognition_demo.runtimeconfig.json" />
+    <None Include="windows_x86_64\bin\csharp_demo\video_recognition_demo\run.bat" />
+    <None Include="windows_x86_64\bin\demo_web_active_liveness_v30.bat" />
+    <None Include="windows_x86_64\bin\demo_web_m6v7.bat" />
+    <None Include="windows_x86_64\bin\demo_web_m_last_v1000.bat" />
+    <None Include="windows_x86_64\bin\demo_web_m_last_v30.bat" />
+    <None Include="windows_x86_64\bin\demo_web_m_last_v300.bat" />
+    <None Include="windows_x86_64\bin\python_demo_web_m_last_v30.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\fingerprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+    <Content Include="bin\base\Hrittik Hossain\152035191_10218783551756010_395108228337335010_n.jpg" />
+    <Content Include="bin\base\Hrittik Hossain\name.txt" />
+    <Content Include="bin\base\person1\01100.jpg" />
+    <Content Include="bin\base\person1\01100_1.jpg" />
+    <Content Include="bin\base\person1\name.txt" />
+    <Content Include="bin\base\person2\00001fb010_930831.tif" />
+    <Content Include="bin\base\person2\name.txt" />
+    <Content Include="bin\base\person3\123.tif" />
+    <Content Include="bin\base\person3\name.txt" />
+    <Content Include="bin\base\Porosh\name.txt" />
+    <Content Include="bin\base\Porosh\WIN_20220301_11_44_51_Pro.jpg" />
+    <Content Include="bin\Debug\BioWebServer.exe" />
+    <Content Include="bin\Debug\BioWebServer.pdb" />
+    <Content Include="bin\Debug\BioWebServer.vshost.exe" />
+    <Content Include="bin\Debug\CommandLine.dll" />
+    <Content Include="bin\Debug\facerec.dll" />
+    <Content Include="bin\Debug\FacerecCSharpWrapper.dll" />
+    <Content Include="bin\Debug\fpcore32.dll" />
+    <Content Include="bin\Debug\fpengine-bak.dll" />
+    <Content Include="bin\Debug\fpengine.dll" />
+    <Content Include="bin\Debug\fpspeed32.dll" />
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\OpenCvSharp.Blob.dll" />
+    <Content Include="bin\Debug\OpenCvSharp.dll" />
+    <Content Include="bin\Debug\OpenCvSharpExtern.dll" />
+    <Content Include="bin\Debug\opencv_ffmpeg341_64.dll" />
+    <Content Include="bin\Debug\sense4.dll" />
+    <Content Include="bin\Debug\SuperSocket.Common.dll" />
+    <Content Include="bin\Debug\SuperSocket.SocketBase.dll" />
+    <Content Include="bin\Debug\SuperSocket.SocketEngine.dll" />
+    <Content Include="bin\Debug\SuperWebSocket.dll" />
+    <Content Include="bin\Debug\SynoAPIEx.dll" />
+    <Content Include="bin\Debug\tensorflow.dll" />
+    <Content Include="bin\Debug\WebSocket4Net.dll" />
+    <Content Include="bin\Debug\winusb.dll" />
+    <Content Include="bin\x86\Debug\BioWebServer.vshost.exe" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020071839.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020071843.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072021.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072116.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072519.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072910.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020090136.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020090520.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012151.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012256.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012528.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012749.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020014718.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020014909.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022616.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022626.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022640.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022701.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125135.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125517.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125530.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125534.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125541.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo19032020041904.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo19032020050153.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo19032020051323.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011043.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011057.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011139.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011149.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011255.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011649.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011704.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011716.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020120121.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020120807.bmp" />
+    <Content Include="bin\x86\Debug\fpcore32.dll" />
+    <Content Include="bin\x86\Debug\fpengine.dll" />
+    <Content Include="bin\x86\Debug\fpspeed32.dll" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\16039213.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\16337753.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\1634883.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\1637584.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\105251486.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\111021601.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\11191593.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\112014292.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\11557550.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\11632940.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020215\133541534.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\15117993.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\151553942.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\151849160.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\15748927.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\165533870.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17449178.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17503944.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17564249.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17724260.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\1873551.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\18922505.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\19136410.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\162556552.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\16322121.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163340518.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163341315.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163342182.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163342782.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163342997.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163343119.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\16345356.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163525238.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163642647.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163719237.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163840863.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\1639367.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163957991.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\164023560.txt" />
+    <Content Include="bin\x86\Debug\LOGS\3_21_2020_12PM\SSL_REQ_LOG_3_21_2020_12PM.txt" />
+    <Content Include="bin\x86\Debug\MiT_License.dll" />
+    <Content Include="bin\x86\Debug\MiT_License.txt" />
+    <Content Include="bin\x86\Debug\nbis32.dll" />
+    <Content Include="bin\x86\Debug\SuperSocket.Common.dll" />
+    <Content Include="bin\x86\Debug\SuperSocket.SocketBase.dll" />
+    <Content Include="bin\x86\Debug\SuperSocket.SocketEngine.dll" />
+    <Content Include="bin\x86\Debug\SuperWebSocket.dll" />
+    <Content Include="bin\x86\Debug\SynoAPIEx.dll" />
+    <Content Include="bin\x86\Debug\System.Net.Http.dll" />
+    <Content Include="bin\x86\Debug\System.Net.Http.xml" />
+    <Content Include="bin\x86\Debug\WebSocket4Net.dll" />
+    <Content Include="bin\x86\Debug\winusb.dll" />
+    <Content Include="bin\x86\Release\BioWebServer.exe" />
+    <Content Include="bin\x86\Release\BioWebServer.pdb" />
+    <Content Include="bin\x86\Release\BioWebServer.vshost.exe" />
+    <Content Include="bin\x86\Release\BioWebServer.XmlSerializers.dll" />
+    <Content Include="bin\x86\Release\fpcore32.dll" />
+    <Content Include="bin\x86\Release\fpengine.dll" />
+    <Content Include="bin\x86\Release\fpspeed32.dll" />
+    <Content Include="bin\x86\Release\log4net.dll" />
+    <Content Include="bin\x86\Release\MiT_License.dll" />
+    <Content Include="bin\x86\Release\nbis32.dll" />
+    <Content Include="bin\x86\Release\Newtonsoft.Json.dll" />
+    <Content Include="bin\x86\Release\SuperSocket.Common.dll" />
+    <Content Include="bin\x86\Release\SuperSocket.SocketBase.dll" />
+    <Content Include="bin\x86\Release\SuperSocket.SocketEngine.dll" />
+    <Content Include="bin\x86\Release\SuperWebSocket.dll" />
+    <Content Include="bin\x86\Release\System.Net.Http.dll" />
+    <Content Include="bin\x86\Release\System.Net.Http.xml" />
+    <Content Include="bin\x86\Release\WebSocket4Net.dll" />
+    <Content Include="bin\x86\Release\winusb.dll" />
+    <Content Include="conf\facerec\active_liveness_estimator.xml" />
+    <Content Include="conf\facerec\age_gender_estimator.xml" />
+    <Content Include="conf\facerec\age_gender_estimator_v2.xml" />
+    <Content Include="conf\facerec\common_capturer.xml" />
+    <Content Include="conf\facerec\common_capturer2.xml" />
+    <Content Include="conf\facerec\common_capturer4.xml" />
+    <Content Include="conf\facerec\common_capturer4_fda.xml" />
+    <Content Include="conf\facerec\common_capturer4_fda_singleface.xml" />
+    <Content Include="conf\facerec\common_capturer4_fda_singleface_with_angles.xml" />
+    <Content Include="conf\facerec\common_capturer4_fda_singleface_with_angles_noise.xml" />
+    <Content Include="conf\facerec\common_capturer4_fda_with_angles.xml" />
+    <Content Include="conf\facerec\common_capturer4_fda_with_angles_noise.xml" />
+    <Content Include="conf\facerec\common_capturer4_lbf.xml" />
+    <Content Include="conf\facerec\common_capturer4_lbf_singleface.xml" />
+    <Content Include="conf\facerec\common_capturer4_mesh.xml" />
+    <Content Include="conf\facerec\common_capturer4_mesh_singleface.xml" />
+    <Content Include="conf\facerec\common_capturer4_mesh_singleface_with_angles.xml" />
+    <Content Include="conf\facerec\common_capturer4_mesh_singleface_with_angles_noise.xml" />
+    <Content Include="conf\facerec\common_capturer4_mesh_with_angles.xml" />
+    <Content Include="conf\facerec\common_capturer4_mesh_with_angles_noise.xml" />
+    <Content Include="conf\facerec\common_capturer4_singleface.xml" />
+    <Content Include="conf\facerec\common_capturer4_singleface_with_angles.xml" />
+    <Content Include="conf\facerec\common_capturer4_singleface_with_angles_noise.xml" />
+    <Content Include="conf\facerec\common_capturer4_with_angles.xml" />
+    <Content Include="conf\facerec\common_capturer4_with_angles_noise.xml" />
+    <Content Include="conf\facerec\common_capturer_blf_fda_auto.xml" />
+    <Content Include="conf\facerec\common_capturer_blf_fda_back.xml" />
+    <Content Include="conf\facerec\common_capturer_blf_fda_front.xml" />
+    <Content Include="conf\facerec\common_capturer_refa_fda_a.xml" />
+    <Content Include="conf\facerec\common_capturer_rfd_fda.xml" />
+    <Content Include="conf\facerec\common_capturer_uld_fda.xml" />
+    <Content Include="conf\facerec\common_lprofile_capturer.xml" />
+    <Content Include="conf\facerec\common_rprofile_capturer.xml" />
+    <Content Include="conf\facerec\common_video_capturer.xml" />
+    <Content Include="conf\facerec\common_video_capturer_fda.xml" />
+    <Content Include="conf\facerec\common_video_capturer_lbf.xml" />
+    <Content Include="conf\facerec\common_video_capturer_mesh.xml" />
+    <Content Include="conf\facerec\depth_liveness_estimator.xml" />
+    <Content Include="conf\facerec\depth_liveness_estimator_cnn.xml" />
+    <Content Include="conf\facerec\depth_liveness_estimator_cnn_telpo.xml" />
+    <Content Include="conf\facerec\emotions_estimator.xml" />
+    <Content Include="conf\facerec\eyes_openness_estimator.xml" />
+    <Content Include="conf\facerec\face_mask_estimator.xml" />
+    <Content Include="conf\facerec\face_quality_estimator.xml" />
+    <Content Include="conf\facerec\fda_fake_detector_singleface.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer.w.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer_blf.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer_blf_front.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer_fake_detector.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer_mesh.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer_refa_a.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer_rfd.xml" />
+    <Content Include="conf\facerec\fda_tracker_capturer_uld.xml" />
+    <Content Include="conf\facerec\iris_fitter.xml" />
+    <Content Include="conf\facerec\ir_liveness_estimator_cnn.xml" />
+    <Content Include="conf\facerec\lfw_static_face_capturer.xml" />
+    <Content Include="conf\facerec\lfw_static_face_capturer_fda.xml" />
+    <Content Include="conf\facerec\liveness_2d_estimator.xml" />
+    <Content Include="conf\facerec\liveness_2d_estimator_v2.xml" />
+    <Content Include="conf\facerec\manual_capturer.xml" />
+    <Content Include="conf\facerec\manual_capturer_fda.xml" />
+    <Content Include="conf\facerec\manual_capturer_mesh.xml" />
+    <Content Include="conf\facerec\method6v2_recognizer.xml" />
+    <Content Include="conf\facerec\method6v3_recognizer.xml" />
+    <Content Include="conf\facerec\method6v4_recognizer.xml" />
+    <Content Include="conf\facerec\method6v5_recognizer.xml" />
+    <Content Include="conf\facerec\method6v6_recognizer.xml" />
+    <Content Include="conf\facerec\method6v7_recognizer.xml" />
+    <Content Include="conf\facerec\method6_recognizer.xml" />
+    <Content Include="conf\facerec\method7v2_recognizer.xml" />
+    <Content Include="conf\facerec\method7v3_recognizer.xml" />
+    <Content Include="conf\facerec\method7v6_recognizer.xml" />
+    <Content Include="conf\facerec\method7v7_recognizer.xml" />
+    <Content Include="conf\facerec\method7_recognizer.xml" />
+    <Content Include="conf\facerec\method8v6_recognizer.xml" />
+    <Content Include="conf\facerec\method8v7_recognizer.xml" />
+    <Content Include="conf\facerec\method9v1000mask_recognizer.xml" />
+    <Content Include="conf\facerec\method9v1000_recognizer.xml" />
+    <Content Include="conf\facerec\method9v300mask_recognizer.xml" />
+    <Content Include="conf\facerec\method9v300_recognizer.xml" />
+    <Content Include="conf\facerec\method9v30mask_recognizer.xml" />
+    <Content Include="conf\facerec\method9v30_recognizer.xml" />
+    <Content Include="conf\facerec\quality_estimator.xml" />
+    <Content Include="conf\facerec\quality_estimator_iso.xml" />
+    <Content Include="conf\facerec\video_worker.xml" />
+    <Content Include="conf\facerec\video_worker_fda.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker.mask.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker.w.l2d.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker.w.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_blf_fda.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_blf_fda_front.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_fake_detector.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_refa_fda.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_rfd_fda.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_telpo_depth_liveness.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_telpo_ir_liveness.xml" />
+    <Content Include="conf\facerec\video_worker_fdatracker_uld_fda.xml" />
+    <Content Include="conf\facerec\video_worker_lbf.xml" />
+    <Content Include="conf\facerec\video_worker_mesh.xml" />
+    <Content Include="lib\facerec.jar" />
+    <Content Include="license\log_params.xml" />
+    <Content Include="license\net_params.xml" />
+    <Content Include="Reference\log4net.dll" />
+    <Content Include="Reference\Newtonsoft.Json.dll" />
+    <Content Include="Reference\SuperSocket.Common.dll" />
+    <Content Include="Reference\SuperSocket.SocketBase.dll" />
+    <Content Include="Reference\SuperSocket.SocketEngine.dll" />
+    <Content Include="Reference\SuperWebSocket.dll" />
+    <Content Include="Reference\WebSocket4Net.dll" />
+    <Content Include="windows_x86_64\bin\base\person1\01100.jpg" />
+    <Content Include="windows_x86_64\bin\base\person1\01100_1.jpg" />
+    <Content Include="windows_x86_64\bin\base\person1\name.txt" />
+    <Content Include="windows_x86_64\bin\base\person2\00001fb010_930831.tif" />
+    <Content Include="windows_x86_64\bin\base\person2\name.txt" />
+    <Content Include="windows_x86_64\bin\base\person3\123.tif" />
+    <Content Include="windows_x86_64\bin\base\person3\name.txt" />
+    <Content Include="windows_x86_64\bin\csharp_demo\demo\CommandLine.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\demo\csharp_demo.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\demo\dll\x64\OpenCvSharpExtern.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\demo\dll\x64\opencv_ffmpeg341_64.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\demo\FacerecCSharpWrapper.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\demo\OpenCvSharp.Blob.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\demo\OpenCvSharp.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\deps\CommandLine.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\deps\dll\x64\OpenCvSharpExtern.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\deps\dll\x64\opencv_ffmpeg341_64.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\deps\OpenCvSharp.Blob.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\deps\OpenCvSharp.dll" />
+    <Content Include="windows_x86_64\bin\csharp_demo\video_recognition_demo\csharp_video_recognition_demo.dll" />
+    <Content Include="windows_x86_64\bin\demo.exe" />
+    <Content Include="windows_x86_64\bin\facerec.dll" />
+    <Content Include="windows_x86_64\bin\FacerecCSharpWrapper.dll" />
+    <Content Include="windows_x86_64\bin\facerec_jni.dll" />
+    <Content Include="windows_x86_64\bin\get_license.exe" />
+    <Content Include="windows_x86_64\bin\group\01.jpg" />
+    <Content Include="windows_x86_64\bin\group\02.jpg" />
+    <Content Include="windows_x86_64\bin\group\03.jpg" />
+    <Content Include="windows_x86_64\bin\group\04.jpg" />
+    <Content Include="windows_x86_64\bin\group\05.jpg" />
+    <Content Include="windows_x86_64\bin\group\06.jpg" />
+    <Content Include="windows_x86_64\bin\group\07.jpg" />
+    <Content Include="windows_x86_64\bin\group\08.jpg" />
+    <Content Include="windows_x86_64\bin\group\09.jpg" />
+    <Content Include="windows_x86_64\bin\group\10.jpg" />
+    <Content Include="windows_x86_64\bin\group\11.jpg" />
+    <Content Include="windows_x86_64\bin\opencv_ffmpeg310_64.dll" />
+    <Content Include="windows_x86_64\bin\sense4.dll" />
+    <Content Include="windows_x86_64\bin\set1\01100.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01101.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01102.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01103.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01104.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01105.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01106.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01107.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01108.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01109.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01110.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01111.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01112.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01113.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01114.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01115.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01116.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01117.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01118.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01119.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01120.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01121.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01122.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01123.jpg" />
+    <Content Include="windows_x86_64\bin\set1\01124.jpg" />
+    <Content Include="windows_x86_64\bin\set1\list.txt" />
+    <Content Include="windows_x86_64\bin\set2\01100.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01101.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01102.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01103.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01104.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01105.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01106.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01107.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01108.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01109.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01110.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01111.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01112.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01113.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01114.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01115.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01116.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01117.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01118.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01119.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01120.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01121.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01122.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01123.jpg" />
+    <Content Include="windows_x86_64\bin\set2\01124.jpg" />
+    <Content Include="windows_x86_64\bin\template_generator.exe" />
+    <Content Include="windows_x86_64\bin\tensorflow.dll" />
+    <Content Include="windows_x86_64\bin\test_calibration.exe" />
+    <Content Include="windows_x86_64\bin\test_facecut.exe" />
+    <Content Include="windows_x86_64\bin\test_filecap.exe" />
+    <Content Include="windows_x86_64\bin\test_identify.exe" />
+    <Content Include="windows_x86_64\bin\test_sdk.exe" />
+    <Content Include="windows_x86_64\bin\test_videocap.exe" />
+    <Content Include="windows_x86_64\bin\update_hwkey.exe" />
+    <Content Include="windows_x86_64\bin\update_license.exe" />
+    <Content Include="windows_x86_64\bin\video_recognition_demo.exe" />
+    <Content Include="windows_x86_64\lib\facerec.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="Fingerprint Files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AForge.Video.DirectShow">
+      <Version>2.2.5</Version>
+    </PackageReference>
+    <PackageReference Include="CommandLineParser">
+      <Version>2.8.0</Version>
+    </PackageReference>
+    <PackageReference Include="Emgu.CV">
+      <Version>4.5.5.4823</Version>
+    </PackageReference>
+    <PackageReference Include="Emgu.CV.Bitmap">
+      <Version>4.5.5.4823</Version>
+    </PackageReference>
+    <PackageReference Include="Emgu.CV.runtime.windows">
+      <Version>4.5.5.4823</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCV">
+      <Version>2.4.11</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCvSharp4">
+      <Version>4.5.5.20211231</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCvSharp4.runtime.win">
+      <Version>4.5.5.20211231</Version>
+    </PackageReference>
+    <PackageReference Include="OpenCvSharp4.Windows">
+      <Version>4.5.5.20211231</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>set facesdk_root_dir=E:\Face Porosh
+xcopy /Y "%25facesdk_root_dir%25\bin\facerec.dll" "$(TargetDir)"
+xcopy /Y "%25facesdk_root_dir%25\bin\sense4.dll" "$(TargetDir)"
+xcopy /Y "%25facesdk_root_dir%25\bin\tensorflow.dll" "$(TargetDir)"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

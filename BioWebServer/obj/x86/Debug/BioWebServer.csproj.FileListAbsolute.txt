@@ -1,0 +1,201 @@
+I:\TFS Project\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+I:\TFS Project\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+I:\TFS Project\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+I:\TFS Project\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+I:\TFS Project\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+I:\TFS Project\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.xml
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csprojAssemblyReference.cache
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.cache
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CoreCompileInputs.cache
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.xml
+C:\Users\Dev-2\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CopyComplete
+I:\TFS Project\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csprojResolveAssemblyReference.cache
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+H:\Agent_Banking_Solution\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csprojResolveAssemblyReference.cache
+H:\Old_BioWebServer\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+H:\Old_BioWebServer\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+H:\Old_BioWebServer\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+H:\Old_BioWebServer\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+H:\Old_BioWebServer\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csprojResolveAssemblyReference.cache
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+H:\Rubel_Vai\Another\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+H:\New_FingerPrint\Old_Finger_Print\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.xml
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csprojResolveAssemblyReference.cache
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+C:\Users\Dev-16\Desktop\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+I:\DEV16\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.exe
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+I:\DEV16\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.exe
+I:\DEV16\BioWebServer\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+I:\DEV16\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+I:\DEV16\BioWebServer\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+I:\DEV16\BioWebServer\BioWebServer\bin\x86\Debug\System.Net.Http.xml
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csprojResolveAssemblyReference.cache
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+I:\DEV16\BioWebServer\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+I:\DEV16\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+I:\DEV16\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.exe
+I:\DEV16\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.exe
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\bin\x86\Debug\System.Net.Http.xml
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csprojResolveAssemblyReference.cache
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+I:\DEV16\AGENT BANKING\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csprojAssemblyReference.cache
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.cache
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CoreCompileInputs.cache
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CopyComplete
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.exe
+H:\Agent Banking\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csprojAssemblyReference.cache
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.cache
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CoreCompileInputs.cache
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CopyComplete
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.exe
+H:\FingerPrint\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\bin\x86\Debug\System.Net.Http.dll
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csprojAssemblyReference.cache
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.cache
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CoreCompileInputs.cache
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CopyComplete
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.exe
+C:\Users\Dev-14\Desktop\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.exe
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.pdb
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csprojResolveAssemblyReference.cache
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+D:\Porosh\BioWebServer v3.0\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.Cache
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.HALWebServer.resources
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Form2.resources
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.frmPassKey.resources
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.Properties.Resources.resources
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.GenerateResource.cache
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CoreCompileInputs.cache
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe.config
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.exe
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\BioWebServer.pdb
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\AForge.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\AForge.Video.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\AForge.Video.DirectShow.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\FacerecCSharpWrapper.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\SuperSocket.Common.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\SuperSocket.SocketBase.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\SuperSocket.SocketEngine.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\SuperWebSocket.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\WebSocket4Net.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\log4net.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.csproj.CopyComplete
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.exe
+E:\Face Porosh\example\csharp\video_recognition_demo\BioWebServer v3.0\BioWebServer\obj\x86\Debug\BioWebServer.pdb

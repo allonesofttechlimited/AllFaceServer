@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F739D79E-3467-455E-A876-EFDC34EF990F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BioWebServer</RootNamespace>
+    <AssemblyName>BioWebServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="FacerecCSharpWrapper">
+      <HintPath>..\..\..\..\..\bin\FacerecCSharpWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="MiT_License, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\MiT_License.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common, Version=1.6.4.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL" />
+    <Reference Include="SuperSocket.SocketBase, Version=1.6.4.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL" />
+    <Reference Include="SuperSocket.SocketEngine, Version=1.6.4.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL" />
+    <Reference Include="SuperWebSocket, Version=0.10.0.0, Culture=neutral, PublicKeyToken=7ba53b9a7cef5d1c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebSocket4Net, Version=0.6.0.0, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Class1.cs" />
+    <Compile Include="Classes\clsServiceHandler.cs" />
+    <Compile Include="Classes\CreateLogFile.cs" />
+    <Compile Include="Classes\CryptoLibrary.cs" />
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="clsFp.cs" />
+    <Compile Include="clsLogWritter.cs" />
+    <Compile Include="fgapi.cs" />
+    <Compile Include="HALWebServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HALWebServer.Designer.cs">
+      <DependentUpon>HALWebServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fpengine.cs" />
+    <Compile Include="fpmessage.cs" />
+    <Compile Include="frmLicenseActivate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLicenseActivate.Designer.cs">
+      <DependentUpon>frmLicenseActivate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassKey.Designer.cs">
+      <DependentUpon>frmPassKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jsonhelper.cs" />
+    <Compile Include="MatchApi.cs" />
+    <Compile Include="obj\x86\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usbdevice.cs" />
+    <EmbeddedResource Include="HALWebServer.resx">
+      <DependentUpon>HALWebServer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassKey.resx">
+      <DependentUpon>frmPassKey.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\BioWebServer.exe.config" />
+    <None Include="bin\Debug\BioWebServer.vshost.exe.config" />
+    <None Include="bin\Debug\BioWebServer.vshost.exe.manifest" />
+    <None Include="bin\x86\Debug\BioWebServer.vshost.exe.config" />
+    <None Include="bin\x86\Debug\BioWebServer.vshost.exe.manifest" />
+    <None Include="bin\x86\Debug\GWPSK.mit" />
+    <None Include="bin\x86\Debug\HAL_Mercant.zip" />
+    <None Include="bin\x86\Debug\HAL_Mercant_27.147.137.181_50..zip" />
+    <None Include="bin\x86\Debug\HAL_Mercant_No_WebService.zip" />
+    <None Include="bin\x86\Debug\test.wsq" />
+    <None Include="bin\x86\Release\BioWebServer.exe.config" />
+    <None Include="bin\x86\Release\BioWebServer.vshost.exe.config" />
+    <None Include="bin\x86\Release\BioWebServer.vshost.exe.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\fingerprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+    <Content Include="bin\Debug\BioWebServer.exe" />
+    <Content Include="bin\Debug\BioWebServer.pdb" />
+    <Content Include="bin\Debug\BioWebServer.vshost.exe" />
+    <Content Include="bin\Debug\CommandLine.dll" />
+    <Content Include="bin\Debug\facerec.dll" />
+    <Content Include="bin\Debug\FacerecCSharpWrapper.dll" />
+    <Content Include="bin\Debug\fpcore32.dll" />
+    <Content Include="bin\Debug\fpengine-bak.dll" />
+    <Content Include="bin\Debug\fpengine.dll" />
+    <Content Include="bin\Debug\fpspeed32.dll" />
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\OpenCvSharp.Blob.dll" />
+    <Content Include="bin\Debug\OpenCvSharp.dll" />
+    <Content Include="bin\Debug\OpenCvSharpExtern.dll" />
+    <Content Include="bin\Debug\opencv_ffmpeg341_64.dll" />
+    <Content Include="bin\Debug\sense4.dll" />
+    <Content Include="bin\Debug\SuperSocket.Common.dll" />
+    <Content Include="bin\Debug\SuperSocket.SocketBase.dll" />
+    <Content Include="bin\Debug\SuperSocket.SocketEngine.dll" />
+    <Content Include="bin\Debug\SuperWebSocket.dll" />
+    <Content Include="bin\Debug\SynoAPIEx.dll" />
+    <Content Include="bin\Debug\tensorflow.dll" />
+    <Content Include="bin\Debug\WebSocket4Net.dll" />
+    <Content Include="bin\Debug\winusb.dll" />
+    <Content Include="bin\x86\Debug\BioWebServer.vshost.exe" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020071839.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020071843.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072021.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072116.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072519.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020072910.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020090136.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo11062020090520.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012151.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012256.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012528.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020012749.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020014718.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020014909.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022616.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022626.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022640.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020022701.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125135.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125517.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125530.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125534.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo12062020125541.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo19032020041904.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo19032020050153.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo19032020051323.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011043.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011057.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011139.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011149.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011255.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011649.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011704.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020011716.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020120121.bmp" />
+    <Content Include="bin\x86\Debug\Fingerprint Files\162813SnapNo21032020120807.bmp" />
+    <Content Include="bin\x86\Debug\fpcore32.dll" />
+    <Content Include="bin\x86\Debug\fpengine.dll" />
+    <Content Include="bin\x86\Debug\fpspeed32.dll" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\16039213.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\16337753.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\1634883.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201215\1637584.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\105251486.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\111021601.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\11191593.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\112014292.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\11557550.txt" />
+    <Content Include="bin\x86\Debug\LOGS\20201219\11632940.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020215\133541534.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\15117993.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\151553942.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\151849160.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\15748927.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\165533870.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17449178.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17503944.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17564249.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\17724260.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\1873551.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\18922505.txt" />
+    <Content Include="bin\x86\Debug\LOGS\2020217\19136410.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\162556552.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\16322121.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163340518.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163341315.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163342182.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163342782.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163342997.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163343119.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\16345356.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163525238.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163642647.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163719237.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163840863.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\1639367.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\163957991.txt" />
+    <Content Include="bin\x86\Debug\LOGS\202033\164023560.txt" />
+    <Content Include="bin\x86\Debug\LOGS\3_21_2020_12PM\SSL_REQ_LOG_3_21_2020_12PM.txt" />
+    <Content Include="bin\x86\Debug\MiT_License.dll" />
+    <Content Include="bin\x86\Debug\MiT_License.txt" />
+    <Content Include="bin\x86\Debug\nbis32.dll" />
+    <Content Include="bin\x86\Debug\SuperSocket.Common.dll" />
+    <Content Include="bin\x86\Debug\SuperSocket.SocketBase.dll" />
+    <Content Include="bin\x86\Debug\SuperSocket.SocketEngine.dll" />
+    <Content Include="bin\x86\Debug\SuperWebSocket.dll" />
+    <Content Include="bin\x86\Debug\SynoAPIEx.dll" />
+    <Content Include="bin\x86\Debug\System.Net.Http.dll" />
+    <Content Include="bin\x86\Debug\System.Net.Http.xml" />
+    <Content Include="bin\x86\Debug\WebSocket4Net.dll" />
+    <Content Include="bin\x86\Debug\winusb.dll" />
+    <Content Include="bin\x86\Release\BioWebServer.exe" />
+    <Content Include="bin\x86\Release\BioWebServer.pdb" />
+    <Content Include="bin\x86\Release\BioWebServer.vshost.exe" />
+    <Content Include="bin\x86\Release\BioWebServer.XmlSerializers.dll" />
+    <Content Include="bin\x86\Release\fpcore32.dll" />
+    <Content Include="bin\x86\Release\fpengine.dll" />
+    <Content Include="bin\x86\Release\fpspeed32.dll" />
+    <Content Include="bin\x86\Release\log4net.dll" />
+    <Content Include="bin\x86\Release\MiT_License.dll" />
+    <Content Include="bin\x86\Release\nbis32.dll" />
+    <Content Include="bin\x86\Release\Newtonsoft.Json.dll" />
+    <Content Include="bin\x86\Release\SuperSocket.Common.dll" />
+    <Content Include="bin\x86\Release\SuperSocket.SocketBase.dll" />
+    <Content Include="bin\x86\Release\SuperSocket.SocketEngine.dll" />
+    <Content Include="bin\x86\Release\SuperWebSocket.dll" />
+    <Content Include="bin\x86\Release\System.Net.Http.dll" />
+    <Content Include="bin\x86\Release\System.Net.Http.xml" />
+    <Content Include="bin\x86\Release\WebSocket4Net.dll" />
+    <Content Include="bin\x86\Release\winusb.dll" />
+    <Content Include="Reference\log4net.dll" />
+    <Content Include="Reference\Newtonsoft.Json.dll" />
+    <Content Include="Reference\SuperSocket.Common.dll" />
+    <Content Include="Reference\SuperSocket.SocketBase.dll" />
+    <Content Include="Reference\SuperSocket.SocketEngine.dll" />
+    <Content Include="Reference\SuperWebSocket.dll" />
+    <Content Include="Reference\WebSocket4Net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="conf\facerec\" />
+    <Folder Include="Fingerprint Files\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
